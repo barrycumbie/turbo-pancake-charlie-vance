@@ -17,7 +17,7 @@ $(document).ready(function(){
       if (dogeLeft > 1500) {
         console.log(dogeLeft);
 
-        $("p").text("Wow, you got " + dogeLeft + " points. You win.");
+        $("p").text("Wow, you got " + dogeLeft + " points. You lose.");
 
       }
     },
