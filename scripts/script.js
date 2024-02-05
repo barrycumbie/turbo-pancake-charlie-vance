@@ -8,13 +8,13 @@ $(document).ready(function(){
 
       let dogeLeft = $("img").position().left;
 
-      if (dogeLeft > 100, dogeLeft <= 1000) {
+      if (dogeLeft > 100, dogeLeft <= 1500) {
         console.log(dogeLeft);
 
         $("p").text("Wow, you got " + dogeLeft + " points. Good for you.");
 
       }
-      if (dogeLeft > 1000) {
+      if (dogeLeft > 1500) {
         console.log(dogeLeft);
 
         $("p").text("Wow, you got " + dogeLeft + " points. You win.");
