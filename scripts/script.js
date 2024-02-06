@@ -28,4 +28,15 @@ $(document).ready(function(){
     { 
       axis: "x" 
     });
+
+
+  $('#restartDoge').click(
+    function(){
+
+      window.location.reload();
+
+    }
+  )
+
+  
 });
